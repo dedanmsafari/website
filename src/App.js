@@ -1,7 +1,12 @@
 import "./App.css";
+import NavBar from "./components/navBar/navBar";
 
 const App = () => {
-  return <div>My react Portfolio</div>;
+  return (
+    <div className="App">
+      <NavBar />
+    </div>
+  );
 };
 
 export default App;
